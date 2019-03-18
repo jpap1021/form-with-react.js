@@ -32,6 +32,17 @@ constructor(){
               placeholder="Age" /><br/> 
         
        </form>
+
+       <hr/>
+        
+<h2>Entered information:</h2>
+<p>Your name:</p>
+<p>Your age:</p>
+<p>Your gender:</p>
+<p>Your destination:</p>
+<p>
+  Your dietary resttrictions:
+</p>
      </main>
     );
   }

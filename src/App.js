@@ -21,15 +21,33 @@ constructor(){
         <input 
               name="firstName" 
               value={this.state.firstName} 
-              placeholder="First name" /><br/> 
+              placeholder="First name" />
+              <br/> 
         <input 
               name="lastName" 
               value={this.state.lastname} 
-              placeholder="Last name" /><br/> 
+              placeholder="Last name" />
+              <br/> 
         <input 
               name="age" 
               value={this.state.age} 
-              placeholder="Age" /><br/> 
+              placeholder="Age" />
+              <br/> 
+        <label>
+            <input
+                type="radio"
+                name="gender"
+                value="male"
+              /> Male
+         </label>
+         <label>
+            <input
+                type="radio"
+                name="gender"
+                value="female"
+              /> Female
+         </label>
+        
         
        </form>
 

@@ -12,6 +12,7 @@ constructor(){
          destination:"",
          dietaryRestirctions:[] 
         }
+    this.handleChange=this.handleChange.bind(this)    
 }
 
 handleChange(event){
@@ -61,7 +62,7 @@ handleChange(event){
                 type="radio"
                 name="gender"
                 value="female"
-                checked={this.state.gender==="female"}
+                checked={this.state.gender ==="female"}
                 onChange={this.handleChange}
               /> Female
          </label>

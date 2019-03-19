@@ -68,15 +68,26 @@ handleChange(event){
          </label>
          <br/>
         
+        <select
+        name="destination"
+        value={this.state.destination}
+        onChange={this.handleChange}
+
+        >
+          <option value="argentina">Argentina</option>
+          <option value="brasil">Brasil</option>
+          <option value="uruguay">Uruguay</option>
+          <option value="chile">Chile</option>
+          </select>
        </form>
 
        <hr/>
         
 <h2>Entered information:</h2>
-<p>Your name:</p>
-<p>Your age:</p>
-<p>Your gender:</p>
-<p>Your destination:</p>
+<p>Your name: {this.state.firstName} {this.state.lastName} </p>
+<p>Your age: {this.state.age}</p>
+<p>Your gender: {this.state.gender}</p>
+<p>Your destination:{this.state.destination}</p>
 <p>
   Your dietary resttrictions:
 </p>

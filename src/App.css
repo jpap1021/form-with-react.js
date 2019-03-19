@@ -1,0 +1,40 @@
+
+body{
+    background-color: #134347
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+div form{
+   margin-top: 40px;
+   background-color: #b0ccbc;
+}
+input{
+    background-color: #b0ccbc;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    background-color: #b0ccbc;
+}
+.cont{
+    width: 40%;
+    background-color: #b0ccbc;
+   
+ 
+}
+h2{
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    margin-left: 40px;
+}

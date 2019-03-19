@@ -33,6 +33,8 @@ handleChange(event){
   render() {
     return (
      <main>
+       <div className="cont">
+       <h2>Enter Information</h2>
        <form>
         <input 
               name="firstName" 
@@ -120,18 +122,20 @@ handleChange(event){
 
 
        </form>
+       </div>
+       
+         <div className="cont">      
+            <h2>Entered information:</h2>
+            <p>Your name: {this.state.firstName} {this.state.lastName} </p>
+            <p>Your age: {this.state.age}</p>
+            <p>Your gender: {this.state.gender}</p>
+            <p>Your destination:{this.state.destination}</p>
+            <p>Your dietary resttrictions:</p>
+            <p>Vegan {this.state.isVegan ? "Yes" : "No"}</p>
+            <p>Kosher {this.state.isKosher ? "Yes" : "No"}</p>
+            <p>Lactose Free {this.state.isLactoseFree ? "Yes" : " No"}</p>
 
-       <hr/>
-        
-<h2>Entered information:</h2>
-<p>Your name: {this.state.firstName} {this.state.lastName} </p>
-<p>Your age: {this.state.age}</p>
-<p>Your gender: {this.state.gender}</p>
-<p>Your destination:{this.state.destination}</p>
-<p>Your dietary resttrictions:</p>
-<p>Vegan {this.state.isVegan ? "Yes" : "No"}</p>
-<p>Kosher {this.state.isKosher ? "Yes" : "No"}</p>
-<p>Lactose Free {this.state.isLactoseFree ? "Yes" : " No"}</p>
+         </div> 
      </main>
     );
   }

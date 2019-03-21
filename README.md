@@ -2,6 +2,8 @@
 
 this project is a travel form,  collect data about the passenger, 
 it's was create with create-react-app
+you can see the project in the next URL 
+https://jpap1021.github.io/form-with-react.js/ 
 
 in the folder where cloned the repository run:
 
